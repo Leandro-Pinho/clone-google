@@ -1,0 +1,23 @@
+.footer-superior {
+    display: flex;
+    justify-content: flex-start;
+    padding: 16px 0 16px 30px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #dadce0;
+}
+
+.footer-inferior {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 30px 16px 30px;
+    background-color: #f2f2f2;
+}
+
+.footer-list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.footer-list h2 {
+    cursor: pointer;
+}
