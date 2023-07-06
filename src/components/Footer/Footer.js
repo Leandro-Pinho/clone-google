@@ -3,8 +3,7 @@ import "./index.css"
 
 const Footer = () => {
   return (
-    <div>
-
+    <div className='footer'>
       <div className='footer-superior'>
         <h2>Brasil</h2>
       </div>
