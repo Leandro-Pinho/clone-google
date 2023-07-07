@@ -9,6 +9,11 @@
     border-radius: 22px;
     border: 1px solid #E3E3E3;
     position: relative;
+    margin-top: 25px;
+}
+
+.search:hover {
+    box-shadow: 0 2px 5px 0.5px rgba(67, 66, 66, 0.2);
 }
 
 .search input {
@@ -17,6 +22,8 @@
     border-radius: 22px;
     background-color: transparent;
     border: none;
+    outline: none;
+    padding-left: 40px;
 }
 
 .search .lupa {
@@ -35,4 +42,50 @@
     position: absolute;
     right: 10px;
     transform: translateY(-38px);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    column-gap: 12px;
+    margin-top: 30px;
+}
+
+.button button {
+    width: 141px;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    background: #F8F8F8;
+    color: #646363;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: -0.6px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0px 0px 1px rgba(67, 66, 66, 0.2);
+}
+
+.privacy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    column-gap: 5px;
+}
+
+.privacy a {
+    color: #1A0DBD;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: -0.28px;
+    text-decoration: none;
 }

@@ -33,3 +33,7 @@
     line-height: 15px;
     cursor: pointer;
 }
+
+.footer-list h2:hover {
+    text-decoration: underline;
+}

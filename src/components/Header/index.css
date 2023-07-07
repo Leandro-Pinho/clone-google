@@ -14,4 +14,21 @@ h2 {
     font-weight: 400;
     line-height: 15px;
     letter-spacing: -0.42px;
+    cursor: pointer;
 }
+
+h2:hover {
+    text-decoration: underline;
+}
+
+img {
+    cursor: pointer;
+}
+
+/*
+img:hover {
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+    background: #F8F8F8;
+} */
